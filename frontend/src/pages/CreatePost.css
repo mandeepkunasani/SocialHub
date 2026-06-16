@@ -1,0 +1,184 @@
+.feed-container{
+  min-height:90vh;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+  padding:40px;
+
+  background:
+  linear-gradient(
+    135deg,
+    #f8fafc,
+    #e2e8f0
+  );
+}
+
+.create-post-card{
+
+  width:100%;
+  max-width:700px;
+
+  background:white;
+
+  padding:40px;
+
+  border-radius:25px;
+
+  box-shadow:
+  0 15px 40px rgba(0,0,0,.12);
+
+  text-align:center;
+}
+
+.create-post-card h2{
+
+  font-size:36px;
+  color:#2563eb;
+
+  margin-bottom:30px;
+}
+
+.create-post-card textarea{
+
+  width:100%;
+  min-height:180px;
+
+  padding:20px;
+
+  border:2px solid #e5e7eb;
+
+  border-radius:15px;
+
+  resize:none;
+
+  font-size:18px;
+
+  outline:none;
+
+  transition:.3s;
+}
+
+.create-post-card textarea:focus{
+
+  border-color:#3b82f6;
+}
+
+.upload-input{
+
+  margin-top:20px;
+  margin-bottom:20px;
+
+  width:100%;
+}
+
+.preview-image{
+
+  width:100%;
+
+  max-height:350px;
+
+  object-fit:cover;
+
+  border-radius:15px;
+
+  margin-top:20px;
+
+  box-shadow:
+  0 8px 20px rgba(0,0,0,.15);
+}
+
+.publish-btn{
+
+  margin-top:25px;
+
+  background:#2563eb;
+
+  color:white;
+
+  border:none;
+
+  padding:15px 35px;
+
+  border-radius:12px;
+
+  font-size:18px;
+
+  font-weight:700;
+
+  cursor:pointer;
+
+  transition:.3s;
+}
+
+.publish-btn:hover{
+
+  background:#1d4ed8;
+
+  transform:translateY(-2px);
+}
+.create-page{
+  max-width:none !important;
+}
+.image-upload-box{
+
+  display:block;
+
+  width:100%;
+
+  margin-top:20px;
+
+  cursor:pointer;
+}
+
+.upload-placeholder{
+
+  height:250px;
+
+  border:3px dashed #cbd5e1;
+
+  border-radius:20px;
+
+  display:flex;
+
+  flex-direction:column;
+
+  justify-content:center;
+
+  align-items:center;
+
+  color:#64748b;
+
+  background:#f8fafc;
+
+  transition:.3s;
+}
+
+.upload-placeholder:hover{
+
+  border-color:#3b82f6;
+
+  background:#eff6ff;
+}
+
+.upload-placeholder p{
+
+  margin-top:10px;
+
+  font-size:18px;
+}
+
+.preview-image{
+
+  width:100%;
+
+  max-height:250px;
+
+  object-fit:cover;
+
+  border-radius:20px;
+
+  box-shadow:
+  0 10px 25px rgba(0,0,0,.15);
+}
